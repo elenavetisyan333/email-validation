@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+#email{
+  width: 360px;
+  height: 35px;
+  text-align: center;
+  border: 3px ridge;
+  outline: none;
+  border-color: white;
+  background-color: rgba(0, 0, 0, 0.09);
+  transition: 0.1s;
+}
+#email:focus{
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: 0.1s;
+}
